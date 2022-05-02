@@ -1,14 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=a+Baloo+D2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,200;0,400;0,500;0,600;0,700;1,200;1,400;1,500;1,600;1,700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700;800&family=Josefin+Slab:ital,wght@0,200;0,400;0,500;0,600;0,700;1,200;1,400;1,500;1,600;1,700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.csshttps://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.csshttps://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css")
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.csshttps://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.csshttps://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css");
 
-*{
-    margin: 0px;
-    padding: 0 ;
-}
 
 body{
     font-size: 16px;
+    margin: 0px;
+    padding: 0 ;
 }
 
 header{
@@ -76,10 +74,9 @@ header{
     color: #fff;
     text-transform:uppercase ;
     letter-spacing: .1rem;
-     background: #ad5389;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    ;
+     background: #ad5389;  
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);  
+    background: linear-gradient(to right, #3c1053, #ad5389); 
     padding:1rem 3rem;
     border: none;
     border-radius: 7px;
@@ -97,4 +94,77 @@ header{
         opacity: 1;
     }
 }
+
+#container-anime{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   background-color:black;
+
+}
+
+footer{
+    
+    height: auto;
+    width: 100vw;
+    font-family: "Press Start 2P";
+    padding-top: 40px;
+    color:white;
+    background-color: black;
+}
+
+#footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    text-align: center;
+}
+
+#footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+
+#socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1 rem 0 3rem 0;
+    text-align: center;
+}
+
+#socials li{
+    margin: 0 10px;
+
+}
+
+#socials a{
+    text-decoration: none;
+    color:white;
+
+}
+
+#socials a i{
+    font-size: 1.1rem;
+
+}
+
+#socials a:hover i {
+    color:purple;
+}
+
 
